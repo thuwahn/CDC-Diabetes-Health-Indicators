@@ -7,7 +7,7 @@ This project aims to explore how feature variables contribute to the target outc
 
 #### **Diabetes Health Indicators Dataset**
 
-The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. For this project, the file [Diabetes_012_health_indicators_BRFSS2015.csv](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv), a cleaned dataset for the year 2015, was used.
+The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. This project uses [Diabetes_012_health_indicators_BRFSS2015.csv](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv), a cleaned dataset from the year 2015.
 
 - **Health states were labeled based:**
     - 0: no diabetes or only during pregnancy
@@ -26,4 +26,11 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 |------------------|--------------------------------------------------|
 | diabetes.html    | HTML report of the project’s analysis and models |
 | diabetes.pdf     | PDF version of the project report                |
+
+## Pipeline
+
+### **A/B testing**:
+
+- **Qualitative variables**: testing for independence using a Resampling Method to overcome the limitation when the chi-square test has at least one expected frequency ($E_{ij}$) less than 5.
+
 
