@@ -7,7 +7,7 @@ This project implements a movie recommendation system using **Singular Value Dec
 
 #### **Diabetes Health Indicators Dataset**
 
-The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic diseases, lifestyle habits, and demographic factors in 2015. Key details include:
+The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic diseases, lifestyle habits, and demographic factors in 2015. 
 
 - **Health states were labeled based on 21 feature variables:**
     - 0: no diabetes or only during pregnancy
