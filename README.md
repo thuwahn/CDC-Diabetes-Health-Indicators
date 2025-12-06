@@ -9,11 +9,10 @@ This project implements a movie recommendation system using **Singular Value Dec
 
 The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic diseases, lifestyle habits, and demographic factors in 2015. Key details include:
 
-- **Scale:**
-    - 25,000,095 ratings
-    - 1,093,360 tags
-    - 62,423 movies
-    - 162,541 users
+- **Health states were labeled based on 21 feature variables:**
+    - 0: no diabetes or only during pregnancy
+    - 1: prediabetes
+    - 2: diabetes
 
 - **User Criteria:** Randomly selected users, each with at least 20 movie ratings. No demographic information is included, ensuring anonymity.
 
