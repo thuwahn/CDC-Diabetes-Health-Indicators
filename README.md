@@ -7,7 +7,7 @@ This project implements a movie recommendation system using **Singular Value Dec
 
 #### **Diabetes Health Indicators Dataset**
 
-The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. For this project, the file [Diabetes_012_health_indicators_BRFSS2015.csv], a cleaned dataset containing 253,680 survey responses for the year 2015, was used.
+The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. For this project, the file [Diabetes_012_health_indicators_BRFSS2015.csv](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv), a cleaned dataset containing 253,680 survey responses for the year 2015, was used.
 
 - **Health states were labeled based on 21 feature variables:**
     - 0: no diabetes or only during pregnancy
