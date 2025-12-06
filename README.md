@@ -22,9 +22,8 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 
 ## Project Structure
 
-| **Folder**              | **Description**                                              |
-|-------------------------|--------------------------------------------------------------|
-| diabetes.html                | Contains the. |
-| diabetes.pdf                  |  |
-
+| **File**         | **Description**                                  |
+|------------------|--------------------------------------------------|
+| diabetes.html    | HTML report of the project’s analysis and models |
+| diabetes.pdf     | PDF version of the project report                |
 
