@@ -32,6 +32,10 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 
 ## Workflow
 
+### **Data Visualization**:
+
+Visualizing the distribution of feature variables and the relationships among them before performing A/B testing.
+
 ### **A/B testing**:
 
 - **Qualitative variables**:
