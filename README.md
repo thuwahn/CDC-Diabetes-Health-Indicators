@@ -1,32 +1,22 @@
-# **SVD-in-Movie-Recommendation-Systems**
+# **CDC-Diabetes-Health-Indicators**
 
 ## Description
-This project implements a movie recommendation system using **Singular Value Decomposition (SVD)**. It features **a simple SVD** for baseline recommendations and **an advanced SVD** that integrates Collaborative Filtering, Content-Based Filtering, and a Hybrid Model to boost accuracy and tackle the cold-start problem for new users and movies.
+This project aims to explore how feature variables contribute to the target outcome and analyze the relationships among variables, and further develops a predictive framework for classifying health states with improved accuracy.
 
 ## About Data 
 
 #### **Diabetes Health Indicators Dataset**
 
-The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. For this project, the file [Diabetes_012_health_indicators_BRFSS2015.csv](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv), a cleaned dataset containing 253,680 survey responses for the year 2015, was used.
+The Diabetes Health Indicators dataset contains health-related survey responses from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), providing information on chronic conditions, lifestyle habits, and demographic factors. For this project, the file [Diabetes_012_health_indicators_BRFSS2015.csv](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv), a cleaned dataset for the year 2015, was used.
 
-- **Health states were labeled based on 21 feature variables:**
+- **Health states were labeled based:**
     - 0: no diabetes or only during pregnancy
     - 1: prediabetes
     - 2: diabetes
 
-- **User Criteria:** Randomly selected users, each with at least 20 movie ratings. No demographic information is included, ensuring anonymity.
+- **Dataset Summary**: 253,680 survey responses to the CDC's BRFSS2015 and 21 feature variables.
 
-- **Data Files:** 6 CSV files:
-    - **`ratings.csv`**: User movie ratings (`userId`, `movieId`, `rating`, `timestamp`)
-    - **`tags.csv`**: User-applied movie tags (`userId`, `movieId`, `tag`, `timestamp`)
-    - **`movies.csv`**: Movie details (`movieId`, `title`, `genres`)
-    - **`links.csv`**: Links to external movie databases (IMDb, TMDb) (`movieId`, `imdbId`, `tmdbId`)
-    - **`genome-scores.csv`**: Tag relevance scores for movies (`movieId`, `tagId`, `relevance`)
-    - **`genome-tags.csv`**: Descriptions of tags in the tag genome (`tagId`, `tag`)
-
-- **User and Movie IDs:**
-    - User IDs are anonymized and consistent across `ratings.csv` and `tags.csv`.
-    - Movie IDs are consistent across `ratings.csv`, `tags.csv`, `movies.csv`, and `links.csv`.
+- **Imbalanced Class**: The non-diabetes class appears approximately five times larger than both the prediabetes and diabetes classes.
 
 > **To download the data, you can download it from the following link: [here](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)**
 
@@ -34,7 +24,7 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
-| diabetes.html                | Contains the MovieLens ml-25m dataset used for training and testing the models. |
-| diabetes.pdf                  | Implements the simple SVD model for baseline movie recommendations. |
+| diabetes.html                | Contains the. |
+| diabetes.pdf                  |  |
 
 
