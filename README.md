@@ -3,6 +3,7 @@
 ## Description
 This project aims to explore how feature variables contribute to the target outcome and analyze the relationships among variables, and further develops a predictive framework for classifying health states with improved accuracy.
 
+
 ## About Data 
 
 #### **Diabetes Health Indicators Dataset**
@@ -20,6 +21,7 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 
 > **To download the data, you can download it from the following link: [here](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)**
 
+
 ## Project Structure
 
 | **File**         | **Description**                                  |
@@ -27,10 +29,28 @@ The Diabetes Health Indicators dataset contains health-related survey responses 
 | diabetes.html    | HTML report of the project’s analysis and models |
 | diabetes.pdf     | PDF version of the project report                |
 
+
 ## Pipeline
 
 ### **A/B testing**:
 
-- **Qualitative variables**: testing for independence using a Resampling Method to overcome the limitation when the chi-square test has at least one expected frequency ($E_{ij}$) less than 5.
+- **Qualitative variables**: testing for independence using a Resampling method to overcome the limitation when the Chi-square test has at least one expected frequency $E_{ij}$ less than 5.
+  
+- **Quantitative variables**: testing for differences between groups using the Resampling ANOVA method to address the limitations of traditional ANOVA
+
+### **Dealing with imbalanced data**:
+
+- Under Sampling
+
+- Over Sampling
+  
+- SMOTE
+  
+- Class Weight
+  
+- Under Sampling + SMOTE
+  
+- Under Sampling + Over Sampling
+
 
 
